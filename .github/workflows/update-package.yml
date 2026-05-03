@@ -45,5 +45,5 @@ jobs:
           NEW_VER=$(grep pkgver wine-tkg-staging-wow64-bin.pacscript | head -n1 | cut -d'"' -f2)
           
           git add wine-tkg-staging-wow64-bin.pacscript
-          git commit -m "update: wine-tkg-staging to version ${NEW_VER}"
+          git commit -m "update: bump to ${NEW_VER}"
           git push
